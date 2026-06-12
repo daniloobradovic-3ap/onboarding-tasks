@@ -1,10 +1,23 @@
-# Compiled output
-out/
-*.class
+# Maven build output
+target/
+*.log
 
 # IntelliJ IDEA
 .idea/
-*.iml
+*.iml/
+out/
 
-# macOS
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# OS files
 .DS_Store
+Thumbs.db
+
+# Maven wrapper logs (optional)
+.mvn/wrapper/maven-wrapper.jar
